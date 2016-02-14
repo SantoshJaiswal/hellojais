@@ -2,8 +2,8 @@ import java.io.Writer;
 import java.io.FileWriter;
 public class JavaHelloWorld{
         public static void main(String[] args){
-                System.out.println("Java Hello World");
-                System.out.println("Hello again");
+                System.out.println("Java Hello World - new checkin");
+                System.out.println("Hello again - with new checkin");
                 Writer w = null;
                 try {                   
                         String s = "/output/output.txt";
