@@ -6,7 +6,7 @@ public class JavaHelloWorld{
                 System.out.println("Hello again - with new checkin");
                 Writer w = null;
                 try {                   
-                        String s = "/output/output.txt";
+                        String s = "output.txt";
                         System.out.println(s);
                         w = new FileWriter(s);
                         w.write("hello");
